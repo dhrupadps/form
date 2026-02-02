@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Form</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #eef2f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 12px;
+    }
+    button {
+      background: #111;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="https://formspree.io/f/xxxxxxx" method="POST">
+    <h3>Enter your details</h3>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Gmail" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
